@@ -37,18 +37,18 @@ ul {
   padding: 0px;
 }
 
-h4 {
+.wx-fc-box h4 {
     margin: 0px;
     padding: 0px 0px 5px 0px;
     border: 0px;
 }
 
-p {
+.wx-fc-box p {
     font-size: 80%;
     margin: 0px;
 }
 
-img {
+.icon img {
   position: relative;
 
   margin: 0px 25px 0px 25px;
