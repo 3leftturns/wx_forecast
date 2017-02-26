@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" ng-app="wxForecast">
+  <head>
+    <meta charset="utf-8">
+    <title>My HTML File</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-controller="WxForecastController">
+      <div id="container">
+          <ul>
+              <li ng-repeat="day in forecastday">
+                  <div class="wx-fc-day">
+                    <div class="icon left">
+                        <img src="{{day.icon_url}}" alt="{{day.icon}}" >
+                    </div>
+                    <div class="right wx-fc-box">
+                        <h4>{{day.title}}</h4>
+                        <p>{{day.fcttext}}</p>
+                    </div>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+.left {
+    position: relative;
+    float: left;
+}
+
+.right {
+    position: relative;
+    float: right;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wx-fc-box {
+    width: 350px;
+}
+
+.wx-fc-day {
+    height: 100px;
+}
+
+#container {
+    width: 500px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h4 {
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    border: 0px;
+}
+
+p {
+    font-size: 80%;
+    margin: 0px;
+}
+
+img {
+  position: relative;
+
+  margin: 25px;
+}
