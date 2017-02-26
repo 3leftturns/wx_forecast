@@ -21,7 +21,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .wx-fc-box {
-    width: 350px;
+    width: 400px;
 }
 
 .wx-fc-day {
@@ -34,6 +34,7 @@ font-family: 'Open Sans', sans-serif;
 
 ul {
   list-style-type: none;
+  padding: 0px;
 }
 
 h4 {
@@ -50,5 +51,5 @@ p {
 img {
   position: relative;
 
-  margin: 25px;
+  margin: 0px 25px 0px 25px;
 }
